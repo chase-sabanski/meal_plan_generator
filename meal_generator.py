@@ -1,7 +1,7 @@
 proteins = ['chicken','salmon', 'pork','corvina', 'beef', 'trout', 'turkey', 'tilapia']
 carbs = ['yuca', 'sweet potato', 'rice', 'potato', 'amaranth', 'quinoa', 'wheat', 'sweet plantain', 'maiz', 'plantain (verde)']
 fruits = ['pear', 'banana', 'mandarin', 'grapes', 'mango', 'cooked apple', 'papaya', 'orange', 'granadilla', 'red fruits', 'pepino', 'coconut water', 'peach', 'cantelope', 'kiwi', 'watermelon', 'chirimoya']
-vegetables = ['avacado', 'broccoli', 'cooked carrot', 'tomato', 'cauliflower', 'zuccini', 'pepinillo']
+vegetables = ['avocado', 'broccoli', 'cooked carrot', 'tomato', 'cauliflower', 'zucchini', 'pepinillo']
 
 counter = {
     "protein": 0,
@@ -11,13 +11,31 @@ counter = {
     "day": 1
 }
 
-def make_meal():
+def make_meal_plan():
     print(f"""
-    Day {counter['day']} lunch is...
+    Day {counter['day']} meals are...
+
+    BREAKFAST
+    =======================================
+    Protein: boiled egg
+    Fruit: 
+
+    LUNCH
+    =======================================
     Protein: {proteins[counter['protein']]}
     Carb: {carbs[counter['carb']]}
     Fruit: {fruits[counter['fruit']]}
     Vegetable: {vegetables[counter['vegetable']]}
+
+    SNACK
+    =======================================
+    Fruit: 
+
+    DINNER
+    =======================================
+    Protein: 
+    Carb: 
+    Vegetable: 
 """
 )
 
@@ -30,5 +48,5 @@ for meal in range(30):
         counter['fruit'] = 0
     if counter['vegetable'] == len(vegetables) - 1:
         counter['vegetable'] = 0
-    make_meal()
+    make_meal_plan()
     counter = {k: v+1 for k,v in counter.items()}
