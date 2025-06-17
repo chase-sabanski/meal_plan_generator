@@ -29,50 +29,53 @@ def make_meal_plan():
 Day {counter['day']} meals are...
 
     BREAKFAST
-    =======================================
+    -----------------------------------------
     Protein: boiled egg
     Fruit: {fruits[counter['fruit']]}
 
     LUNCH
-    =======================================
+    -----------------------------------------
     Protein: {proteins[counter['protein']]}
     Carb: {carbs[counter['carb']]}
     Fruit: {fruits[counter['fruit']]}
     Vegetable: {vegetables[counter['vegetable']]}
 
     SNACK
-    =======================================
+    -----------------------------------------
     Fruit: {fruits[counter['fruit']]}
 
     DINNER
-    =======================================
+    -----------------------------------------
     Protein: {proteins[counter['protein'] + 1]}
     Carb: {carbs[counter['carb'] + 1]}
     Vegetable: {vegetables[counter['vegetable'] + 1]}
 
+=============================================
 Day {counter['day'] + 1} meals are...
 
     BREAKFAST
-    =======================================
+    -----------------------------------------
     Protein: boiled egg
     Fruit: {fruits[counter['fruit'] + 1]}
 
     LUNCH
-    =======================================
+    -----------------------------------------
     Protein: {proteins[counter['protein'] + 1]}
     Carb: {carbs[counter['carb'] + 1]}
     Fruit: {fruits[counter['fruit'] + 1]}
     Vegetable: {vegetables[counter['vegetable'] + 1]}
 
     SNACK
-    =======================================
+    -----------------------------------------
     Fruit: {fruits[counter['fruit'] + 1]}
 
     DINNER
-    =======================================
+    -----------------------------------------
     Protein: {proteins[counter['protein']]}
     Carb: {carbs[counter['carb']]}
     Vegetable: {vegetables[counter['vegetable']]}
+
+=============================================
 """
 )
 
