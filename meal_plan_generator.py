@@ -25,7 +25,12 @@ counter = {
 
 # two days are paired together to so that lunch for day x is dinner for day y and vice versa. A bit messy, but functional.
 def make_meal_plan():
-    return(f"""
+    return(f"""Shopping list for days {counter['day']} and {counter['day'] + 1}:
+> Proteins: {proteins[counter['protein']]}, {proteins[counter['protein'] + 1]} 
+> Carbs: {carbs[counter['carb']]}, {carbs[counter['carb'] + 1]}
+> Fruits: {fruits[counter['fruit']]}, {fruits[counter['fruit'] + 1]}
+> Vegetables: {vegetables[counter['vegetable']]}, {vegetables[counter['vegetable'] + 1]}
+        
 Day {counter['day']} meals are...
 
     BREAKFAST
