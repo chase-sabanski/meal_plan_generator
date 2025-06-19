@@ -1,9 +1,9 @@
 import os
 
-proteins = ['chicken','salmon', 'pork','corvina', 'beef', 'trout', 'turkey', 'tilapia']
-carbs = ['yuca', 'sweet potato', 'rice', 'potato', 'amaranth', 'quinoa', 'wheat', 'sweet plantain', 'maiz', 'plantain (verde)']
+proteins = ['chicken','corvina', 'pork','salmon', 'beef', 'trout', 'turkey', 'tilapia']
+carbs = ['choclo', 'sweet potato (purple)', 'yuca', 'rice', 'potato', 'amaranth', 'quinoa', 'wheat', 'sweet plantain', 'maiz', 'plantain (verde)', 'sweet potato (orange)']
 fruits = ['pear', 'banana', 'mandarin', 'grapes', 'mango', 'cooked apple', 'papaya', 'orange', 'granadilla', 'red fruits', 'pepino', 'coconut water', 'peach', 'cantelope', 'kiwi', 'watermelon', 'chirimoya']
-vegetables = ['avocado', 'broccoli', 'cooked carrot', 'tomato', 'cauliflower', 'zucchini', 'pepinillo']
+vegetables = ['asparagus', 'pumpkin', 'beats', 'eggplant', 'avocado', 'broccoli', 'cooked carrot', 'tomato', 'cauliflower', 'zucchini', 'pepinillo', 'white carrots', 'celery']
 
 # extends the list of foods so that I don't have to reset at the end of a list, lazy(?) but functional
 while len(proteins) < 100:
