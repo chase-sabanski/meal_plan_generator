@@ -1,5 +1,6 @@
 import os
 
+# when these lists exceed 30 length, I will need to scramble them every time so that there is variety and a chance for all ingredients to be used eventually
 proteins = ['chicken','corvina', 'pork','salmon', 'beef', 'trout', 'turkey', 'tilapia']
 carbs = ['choclo', 'sweet potato (purple)', 'yuca', 'rice', 'potato', 'amaranth', 'quinoa', 'wheat', 'sweet plantain', 'maiz', 'plantain (verde)', 'sweet potato (orange)']
 fruits = ['pear', 'banana', 'mandarin', 'grapes', 'mango', 'cooked apple', 'papaya', 'orange', 'granadilla', 'red fruits', 'pepino', 'coconut water', 'peach', 'cantelope', 'kiwi', 'watermelon', 'chirimoya']
