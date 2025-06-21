@@ -5,4 +5,4 @@ I got tired of thinking of meals when going through baby-led weaning so I create
 You can add or remove items from the categories to fit your baby's need.
 
 # TODO:
-- Create a shopping list based on the ingredients needed for 4 consecutive meals
+- Scramble the 4 categories when the lists exceed 30 length. This allows for more variety and a chance for all ingredients to be used (eventually).
