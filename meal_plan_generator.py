@@ -6,6 +6,12 @@ carbs = ['choclo', 'sweet potato (purple)', 'yuca', 'rice', 'potato', 'amaranth'
 fruits = ['pear', 'banana', 'mandarin', 'grapes', 'mango', 'cooked apple', 'papaya', 'orange', 'granadilla', 'red fruits', 'pepino', 'coconut water', 'peach', 'cantelope', 'kiwi', 'watermelon', 'chirimoya']
 vegetables = ['asparagus', 'pumpkin', 'beats', 'eggplant', 'avocado', 'broccoli', 'cooked carrot', 'tomato', 'cauliflower', 'zucchini', 'pepinillo', 'white carrots', 'celery']
 
+# categories in spanish
+proteína = ['chicken','corvina', 'pork','salmon', 'beef', 'trout', 'turkey', 'tilapia']
+carbohidratos = ['choclo', 'sweet potato (purple)', 'yuca', 'rice', 'potato', 'amaranth', 'quinoa', 'wheat', 'sweet plantain', 'maiz', 'plantain (verde)', 'sweet potato (orange)']
+frutas = ['pear', 'banana', 'mandarin', 'grapes', 'mango', 'cooked apple', 'papaya', 'orange', 'granadilla', 'red fruits', 'pepino', 'coconut water', 'peach', 'cantelope', 'kiwi', 'watermelon', 'chirimoya']
+vegetales = ['asparagus', 'pumpkin', 'beats', 'eggplant', 'avocado', 'broccoli', 'cooked carrot', 'tomato', 'cauliflower', 'zucchini', 'pepinillo', 'white carrots', 'celery']z
+
 # extends the list of foods so that I don't have to reset at the end of a list, lazy(?) but functional
 while len(proteins) < 100:
     proteins.extend(proteins)
